@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Display Death Coordinates
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Place mod in mods folder.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## How to use
+When you die, your death coordinates will be messaged to you (and only you). Nothing else is required.
