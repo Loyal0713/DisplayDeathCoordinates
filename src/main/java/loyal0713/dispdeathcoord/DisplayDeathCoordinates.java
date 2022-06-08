@@ -2,7 +2,7 @@ package loyal0713.dispdeathcoord;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
-import net.minecraft.text.LiteralText;
+import net.minecraft.text.Text;
 
 public class DisplayDeathCoordinates implements ModInitializer {
     private double x, y, z;
@@ -19,7 +19,7 @@ public class DisplayDeathCoordinates implements ModInitializer {
     
                     // send message to player
                     String msg = "Death coordinate: " + (int)this.x + ", " + (int)this.y + ", " + (int)this.z;
-                    client.player.sendMessage(new LiteralText(msg), false);
+                    client.player.sendMessage(Text.of(msg), false);
                 }
 
                 // update player position
